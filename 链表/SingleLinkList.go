@@ -221,15 +221,16 @@ func InitLinkedList() {
 
 	list.InsertToTail(5)
 	list.InsertToTail(1)
-	list.InsertToTail(3)
+	list.Print()
 
-	list.InsertToHead(6)
+
+	list.Reverse()
 	list.Print()
 
 	ok := list.DeleteBottomN(3)
-	list.Print()
 	fmt.Println(ok)
 }
+
 func main() {
 	InitLinkedList()
 }
