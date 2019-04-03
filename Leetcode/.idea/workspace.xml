@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073d7363-154f-484f-b07d-20f6ff63b8c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gotest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../图/graph_search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../堆和堆排序/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../堆和堆排序/heap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../堆和堆排序/heap_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../广度和深度优先搜索/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../广度和深度优先搜索/heap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../广度和深度优先搜索/priority_queue.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../二叉树/数据结构-算法-二叉树-主干.md" beforeDir="false" afterPath="$PROJECT_DIR$/../二叉树/数据结构-算法-二叉树-主干.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gotest.go" beforeDir="false" afterPath="$PROJECT_DIR$/gotest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../优秀博客地址-博客记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/../优秀博客地址-博客记录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../链表/SingleLinkList.go" beforeDir="false" afterPath="$PROJECT_DIR$/../链表/SingleLinkList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../图/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../图/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../复杂度/算法与数据结构-算法复杂度分析.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数组/算法与数据结构-数组.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/.idea/链表.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/SingleLinkList.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/代码实现过程-链表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../链表/算法与数据结构-链表.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,18 +27,19 @@
     <session id="2114086038">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="go" value="16" />
+          <entry key="go" value="19" />
           <entry key="html" value="1" />
           <entry key="js" value="1" />
           <entry key="s" value="1" />
@@ -46,7 +48,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Go" value="16" />
+          <entry key="Go" value="19" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="x86 Plan9 Assembly" value="1" />
@@ -54,14 +56,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3569" />
+          <entry key="go" value="5122" />
           <entry key="html" value="2" />
           <entry key="js" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3569" />
+          <entry key="Go" value="5122" />
           <entry key="HTML" value="2" />
           <entry key="JavaScript" value="9" />
         </counts>
@@ -72,7 +74,26 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gotest.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../3-链表/SingleLinkList.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="210" column="24" lean-forward="true" selection-start-line="210" selection-start-column="24" selection-end-line="210" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,8 +113,8 @@
         <option value="$PROJECT_DIR$/websocket/public/style.css" />
         <option value="$PROJECT_DIR$/websocket/public/app.js" />
         <option value="$PROJECT_DIR$/websocket/main.go" />
-        <option value="$PROJECT_DIR$/gotest.go" />
         <option value="$PROJECT_DIR$/../链表/SingleLinkList.go" />
+        <option value="$PROJECT_DIR$/gotest.go" />
       </list>
     </option>
   </component>
@@ -104,9 +125,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1042" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,9 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,13 +146,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553910794235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554042441188" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -189,11 +210,14 @@
       <workItem from="1553864104040" duration="2696000" />
       <workItem from="1553867004344" duration="7229000" />
       <workItem from="1553908006008" duration="1325000" />
+      <workItem from="1553997678882" duration="1835000" />
+      <workItem from="1554026484079" duration="2572000" />
+      <workItem from="1554033597904" duration="7871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14264000" />
+    <option name="totallyTimeSpent" value="26542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
@@ -203,16 +227,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32983324" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21000618" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.44966027" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Debug" order="7" weight="0.35762817" />
+      <window_info id="Debug" order="7" weight="0.4088944" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.28723404" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.24110672" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -232,6 +256,23 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/gotest.go</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;main.ListNode&quot;)(825741304272)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/CodeSpace/Go/src/github.com/kataras/iris/websocket/connection.go">
@@ -279,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="262" selection-start-line="262" selection-end-line="262" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/analysis.go" />
     <entry file="file://C:/Go/src/runtime/asm_amd64.s">
       <provider selected="true" editor-type-id="text-editor">
@@ -294,17 +328,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gotest.go">
+    <entry file="file://$PROJECT_DIR$/../链表/SingleLinkList.go" />
+    <entry file="file://$PROJECT_DIR$/../3-链表/SingleLinkList.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="283">
+          <caret line="210" column="24" lean-forward="true" selection-start-line="210" selection-start-column="24" selection-end-line="210" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../链表/SingleLinkList.go">
+    <entry file="file://C:/Go/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="235">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gotest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
         </state>
       </provider>
     </entry>
