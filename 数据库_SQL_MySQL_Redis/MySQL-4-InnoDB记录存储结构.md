@@ -215,7 +215,7 @@ InnoDB存储引擎会为每条记录都添加 ***transaction_id*** 和 ***roll_p
 
 ## 总结
 
-1.  页是`MySQL`中磁盘和内存交互的基本单位，也是`MySQL`是管理存储空间的基本单位。
+1.  页 是`MySQL`中磁盘和内存交互的基本单位，也是`MySQL`是管理存储空间的基本单位。
 
 2.  指定和修改行格式的语法如下：
 
@@ -225,7 +225,7 @@ InnoDB存储引擎会为每条记录都添加 ***transaction_id*** 和 ***roll_p
     ALTER TABLE 表名 ROW_FORMAT=行格式名称
     ```
 
-3.  `InnoDB`目前定义了4种行格式
+3.  `InnoDB`目前定义了 4种 行格式
 
     -   COMPACT行格式
 

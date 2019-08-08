@@ -2,7 +2,7 @@
 
 #### 在命令行上使用选项
 
-如果我们在启动服务器程序的时候就禁止各客户端使用`TCP/IP`网络进行通信，可以在启动服务器程序的命令行里添加`skip-networking`启动选项，就像这样：
+如果在启动服务器程序的时候就禁止各客户端使用`TCP/IP`网络进行通信，可以在 启动服务器程序的命令行里添加`skip-networking`启动选项，就像这样：
 
 ```
 mysqld --skip-networking
@@ -74,7 +74,7 @@ mysqld --default-storage-engine = MyISAM
 -   `MYSQL_HOME`是一个环境变量，该变量的值是我们自己设置的。（可选）言外之意就是其他的配置文件既能存放服务器相关的选项也能存放客户端相关的选项，`.mylogin.cnf`除外，它只能存放客户端相关的一些选项。
 -   通过指定`defaults-extra-file`参数的值来添加额外的配置文件路径
 
--   名为`.mylogin.cnf`配置文件有点儿特殊，它不是一个纯文本文件（其他的配置文件都是纯文本文件），而是使用`mysql_config_editor`实用程序创建的加密文件。文件中只能包含一些用于启动客户端软件时连接服务器的一些选项，包括 `host`、`user`、`password`、`port`和 `socket`。而且它只能被客户端程序所使用。
+-   名为`.mylogin.cnf`配置文件特殊，它不是一个纯文本文件（其他的配置文件都是纯文本文件），而是使用`mysql_config_editor`实用程序创建的加密文件。文件中只能包含一些用于启动客户端软件时连接服务器的一些选项，包括 `host`、`user`、`password`、`port`和 `socket`。而且它 只能被客户端程序所使用。
 
 对于传递给`mysqld_safe`的启动选项来说，如果`mysqld_safe`程序不处理，会接着传递给`mysqld`程序处理。
 
@@ -267,19 +267,13 @@ SET [@@(GLOBAL|SESSION).]var_name = XXX;
 
 ###### **查看不同作用范围的系统变量**
 
-既然`系统变量`有`作用范围`之分，那我们的`SHOW VARIABLES`语句查看的是什么`作用范围`的`系统变量`呢？
-
-答：默认查看的是`SESSION`作用范围的系统变量。
+不明确指定作用范围，`SHOW VARIABLES`语句默认查看 SESSION 系统变量。
 
 查看系统变量的语句上加上要查看哪个`作用范围`的系统变量，就像这样：
 
 ```
 SHOW [GLOBAL|SESSION] VARIABLES [LIKE 匹配的模式];
-```
 
-样例
-
-```
 SHOW SESSION VARIABLES LIKE 'default_storage_engine'
 SHOW GLOBAL VARIABLES LIKE 'default_storage_engine'
 ```
