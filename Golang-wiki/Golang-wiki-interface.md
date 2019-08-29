@@ -1,4 +1,4 @@
-# Golang interface
+# Golang wiki interface
 
 目录
 

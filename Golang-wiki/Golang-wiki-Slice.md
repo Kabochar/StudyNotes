@@ -1,4 +1,4 @@
-# Golang Slice
+# Golang wiki Slice
 
 目录
 

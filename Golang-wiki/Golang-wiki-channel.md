@@ -1,4 +1,4 @@
-# Golang Channel
+# Golang wiki Channel
 
 目录
 

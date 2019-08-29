@@ -1,4 +1,4 @@
-# Golang map
+# Golang wiki map
 
 目录
 
