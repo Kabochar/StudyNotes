@@ -193,6 +193,24 @@ slice 和 string 的底层数据结构：
 
 ![1566574926128](pics/1566574926128.png)
 
+其他案例
+
+```
+// 来源地: https://www.cnblogs.com/shuiyuejiangnan/p/9707066.html
+func str2bytes(s string) []byte {
+	x := (*[2]uintptr)(unsafe.Pointer(&s))
+	h := [3]uintptr{x[0], x[1], x[1]}
+	
+	// 转换过程：&h -> Pointer -> *[]byte -> []byte
+	return *(*[]byte)(unsafe.Pointer(&h))
+}
+
+func bytes2str(b []byte) string {
+	// 转换过程：&b -> Pointer -> *string -> string
+	return *(*string)(unsafe.Pointer(&b))
+}
+```
+
 ## 总结
 
 -   unsafe 包绕过了 Go 的类型系统，达到直接操作内存的目的，使用它有一定的风险性。但是在某些场景下，使用 unsafe 包提供的函数会提升代码的效率；
