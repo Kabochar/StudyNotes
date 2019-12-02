@@ -4,7 +4,7 @@
 
 ## 比较运算符
 
-![1575191109063](D:\Documents\笔记本\offer学习复习\其他\SQL_基础理论\1575191109063.png)
+![1575191109063](pics/1575191109063.png)
 
 样例
 
@@ -22,7 +22,7 @@ SQL：SELECT name, hp_max FROM heros WHERE hp_max BETWEEN 5399 AND 6811
 
 ## 逻辑运算符
 
-![1575191174698](D:\Documents\笔记本\offer学习复习\其他\SQL_基础理论\1575191174698.png)
+![1575191174698](pics/1575191174698.png)
 
 样例
 
