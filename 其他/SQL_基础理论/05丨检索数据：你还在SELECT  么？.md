@@ -2,6 +2,18 @@
 
 [TOC]
 
+## 疑问解答
+
+SELECT 查询的基础语法？
+
+如何排序检索数据？
+
+什么情况下用SELECT*，如何提升SELECT查询效率？
+
+SELECT COUNT(*) ＞ SELECT COUNT(1) ＞ SELECT COUNT(具体字段)解析？
+
+-   详细翻阅专栏评论
+
 ## SELECT 查询的基础语法
 
 ### 查询列
@@ -30,9 +42,9 @@ SQL：SELECT name AS n, hp_max AS hm, mp_max AS mm, attack_max AS am, defense_ma
 
 ### 查询常数
 
->   在SELECT查询结果中增加一列固定的常数列。
+>   在SELECT查询结果中增加一列固定的常数列
 >
->   使用场景：想整合不同的数据源，用常数列作为这个表的标记。
+>   使用场景：想整合不同的数据源，用常数列作为这个表的标记
 
 ```
 
@@ -61,7 +73,7 @@ SQL：SELECT DISTINCT attack_range FROM heros
 -   非选择列排序
     -   即使 SELET 语句没有，ORDER BY 同样可以使用
 -   ORDER BY 的位置
-    -   t通常 位于 SELECT 语句的最后一条子句
+    -   通常 位于 SELECT 语句的最后一条子句
 
 按照最大生命值排序
 
@@ -86,7 +98,7 @@ SQL：SELECT name, hp_max FROM heros ORDER BY mp_max, hp_max DESC
 SQL：SELECT name, hp_max FROM heros ORDER BY hp_max DESC LIMIT 5
 ```
 
-## SELECT 的执行顺序
+## SELECT 执行顺序
 
 SELECT 查询时的两个顺序：
 
@@ -120,21 +132,5 @@ LIMIT 2 #顺序7
 
 练习时使用，生产开发不建议
 
-## 疑问解答
 
-SELECT 查询的基础语法？
-
-
-
-如何排序检索数据？
-
-
-
-什么情况下用SELECT*，如何提升SELECT查询效率？
-
-
-
-SELECT COUNT(*) ＞ SELECT COUNT(1) ＞ SELECT COUNT(具体字段)解析？
-
-翻阅专栏评论
 
