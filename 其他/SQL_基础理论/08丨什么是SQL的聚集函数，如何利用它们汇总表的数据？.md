@@ -2,6 +2,52 @@
 
 [TOC]
 
+## 提问
+
+聚集函数都有哪些，能否在一条 SELECT 语句中使用多个聚集函数？
+
+如何对数据进行分组，并进行聚集统计？
+
+如何使用HAVING过滤分组，HAVING和WHERE的区别是什么？
+
+筛选最大生命值大于6000的英雄，按照主要定位进行分组，选择分组英雄数量大于5的分组，按照分组英雄数从高到低进行排序，并显示每个分组的英雄数量、主要定位和平均最大生命值？
+
+```
+SELECT
+	COUNT( * ) AS num,
+	role_main,
+	AVG( hp_max ) 
+FROM
+	heros 
+WHERE
+	hp_max > 6000 
+GROUP BY
+	role_main 
+HAVING
+	num > 5 
+ORDER BY
+	num DESC
+```
+
+筛选最大生命值与最大法力值之和大于7000的英雄，按照攻击范围来进行分组，显示分组的英雄数量，以及分组英雄的最大生命值与法力值之和的平均值、最大值和最小值，并按照分组英雄数从高到低进行排序，其中聚集函数的结果包括小数点后两位？
+
+```
+SELECT
+	COUNT( * ) AS num,
+	`name`,
+	ROUND( AVG( hp_max + mp_max ), 2 ) AS '平均值',
+	ROUND( MAX( hp_max + mp_max ), 2 ) AS '最大值',
+	ROUND( MIN( hp_max + mp_max ), 2 ) AS '最小值' 
+FROM
+	heros 
+WHERE
+	( hp_max + mp_max ) > 7000 
+GROUP BY
+	attack_range
+ORDER BY
+	num DESC
+```
+
 ## 聚集函数都有哪些
 
 ![1575256285602](pics/1575256285602.png)
@@ -24,7 +70,7 @@ SQL：SELECT COUNT(role_assist) FROM heros WHERE hp_max > 6000
 
 ```
 
-SQL：SELECT MAX(hp_max) FROM heros WHERE role_main = '射手' or role_assist = '射手'
+SQL：SELECT MAX(hp_max) FROM heros WHERE role_main = '射手' OR role_assist = '射手'
 ```
 
 需要对英雄的主要定位和次要定位进行筛选
@@ -105,50 +151,4 @@ SQL: SELECT COUNT(*) as num, role_main, role_assist FROM heros WHERE hp_max > 60
 -   在SELECT查询中，关键字的顺序是不能颠倒的
     -   SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...
 -   使用GROUP BY进行分组，如果想让输出的结果有序，可以在GROUP BY后使用ORDER BY。因为GROUP BY只起到了分组的作用，排序还是需要通过ORDER BY来完成。
-
-## 提问
-
-聚集函数都有哪些，能否在一条SELECT 语句中使用多个聚集函数？
-
-如何对数据进行分组，并进行聚集统计？
-
-如何使用HAVING过滤分组，HAVING和WHERE的区别是什么？
-
-筛选最大生命值大于6000的英雄，按照主要定位进行分组，选择分组英雄数量大于5的分组，按照分组英雄数从高到低进行排序，并显示每个分组的英雄数量、主要定位和平均最大生命值？
-
-```
-SELECT
-	COUNT( * ) AS num,
-	role_main,
-	AVG( hp_max ) 
-FROM
-	heros 
-WHERE
-	hp_max > 6000 
-GROUP BY
-	role_main 
-HAVING
-	num > 5 
-ORDER BY
-	num DESC
-```
-
-筛选最大生命值与最大法力值之和大于7000的英雄，按照攻击范围来进行分组，显示分组的英雄数量，以及分组英雄的最大生命值与法力值之和的平均值、最大值和最小值，并按照分组英雄数从高到低进行排序，其中聚集函数的结果包括小数点后两位？
-
-```
-SELECT
-	COUNT( * ) AS num,
-	`name`,
-	ROUND( AVG( hp_max + mp_max ), 2 ) AS '平均值',
-	ROUND( MAX( hp_max + mp_max ), 2 ) AS '最大值',
-	ROUND( MIN( hp_max + mp_max ), 2 ) AS '最小值' 
-FROM
-	heros 
-WHERE
-	( hp_max + mp_max ) > 7000 
-GROUP BY
-	attack_range
-ORDER BY
-	num DESC
-```
 

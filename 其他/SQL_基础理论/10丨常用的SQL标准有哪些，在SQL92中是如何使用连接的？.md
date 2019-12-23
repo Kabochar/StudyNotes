@@ -40,7 +40,7 @@ SQL: SELECT * FROM player, team
 
 ### 等值连接
 
-player 表和team表都存在team_id 这一列使用等值链接
+player 表和 team 表都存在 team_id 这一列使用等值链接
 
 ```
 
